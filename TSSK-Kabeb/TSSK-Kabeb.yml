@@ -769,6 +769,19 @@ overlays:
         - Crunchyroll
     ignore_blank_results: true
 
+  Crave:
+    overlay:
+      name: funnyordie
+      url: https://raw.githubusercontent.com/netplexflix/Overlays/refs/heads/main/TSSK-Kabeb/Networks/crave.png
+      group: TSSKnetwork
+      weight: 323
+    plex_search:
+      validate: false
+      any:
+        network:
+        - Crave
+    ignore_blank_results: true
+
   Plex:
     overlay:
       name: plex
