@@ -103,6 +103,7 @@ overlays:
         - HBO Canada
         - HBO Family
         - HBO Mundi
+        - Max
     ignore_blank_results: true
 
   PEACOCK:
@@ -243,6 +244,7 @@ overlays:
         - BBC Scotland
         - BBC Three
         - BBC Two
+        - CBeebies
     ignore_blank_results: true
 
   theCW:
@@ -369,6 +371,7 @@ overlays:
         - Cartoon Network
         - Cartoon Network Latin America
         - Cartoon Network Anything
+        - Cartoon Network Asia
     ignore_blank_results: true
 
   Zee5:
@@ -489,6 +492,7 @@ overlays:
         - Discovery
         - Discovery Channel
         - discovery+
+        - Investigation Discovery
     ignore_blank_results: true
 
   ESPN:
@@ -780,6 +784,157 @@ overlays:
       any:
         network:
         - Crave
+    ignore_blank_results: true
+
+  Dropout:
+    overlay:
+      name: dropout
+      url: https://raw.githubusercontent.com/netplexflix/Overlays/refs/heads/main/TSSK-Kabeb/Networks/dropout.png
+      group: TSSKnetwork
+      weight: 322
+    plex_search:
+      validate: false
+      any:
+        network:
+        - Dropout
+    ignore_blank_results: true
+
+  Videoland:
+    overlay:
+      name: videoland
+      url: https://raw.githubusercontent.com/netplexflix/Overlays/refs/heads/main/TSSK-Kabeb/Networks/videoland.png
+      group: TSSKnetwork
+      weight: 321
+    plex_search:
+      validate: false
+      any:
+        network:
+        - Videoland
+    ignore_blank_results: true
+
+  Channel4:
+    overlay:
+      name: channel4
+      url: https://raw.githubusercontent.com/netplexflix/Overlays/refs/heads/main/TSSK-Kabeb/Networks/channel4.png
+      group: TSSKnetwork
+      weight: 320
+    plex_search:
+      validate: false
+      any:
+        network:
+        - Channel 4
+    ignore_blank_results: true
+
+  AandE:
+    overlay:
+      name: aande
+      url: https://raw.githubusercontent.com/netplexflix/Overlays/refs/heads/main/TSSK-Kabeb/Networks/aande.png
+      group: TSSKnetwork
+      weight: 319
+    plex_search:
+      validate: false
+      any:
+        network:
+        - A&E
+        - A\u0026E
+    ignore_blank_results: true
+
+  5:
+    overlay:
+      name: 5
+      url: https://raw.githubusercontent.com/netplexflix/Overlays/refs/heads/main/TSSK-Kabeb/Networks/5.png
+      group: TSSKnetwork
+      weight: 318
+    plex_search:
+      validate: false
+      any:
+        network:
+        - 5
+        - Channel 5
+    ignore_blank_results: true
+
+  itv:
+    overlay:
+      name: itv
+      url: https://raw.githubusercontent.com/netplexflix/Overlays/refs/heads/main/TSSK-Kabeb/Networks/itv.png
+      group: TSSKnetwork
+      weight: 317
+    plex_search:
+      validate: false
+      any:
+        network:
+        - ITV1
+        - ITV2
+        - ITV3
+        - ITV4
+        - ITV Play
+        - iTV Thailand
+        - ITVBe
+        - ITV Encore
+        - ITV Tyne Tees
+        - ITV Granada
+        - ITV Central
+        - ITV Yorkshire
+        - ITVX
+        - ITV Channel Television
+        - ITV Hub
+        - ITV Cymru Wales
+        - ITV Quiz
+        - ITV Anglia
+        - ITV News Channel
+        - ITV Meridian
+        - ITV West Country
+        - ITV Border
+        - ITVi
+        - ITV Sport Channel
+        - ITV Thames Valley
+        - ITV Player
+        - ITV West
+        - ITV Westcountry
+    ignore_blank_results: true
+
+  PBS:
+    overlay:
+      name: pbs
+      url: https://raw.githubusercontent.com/netplexflix/Overlays/refs/heads/main/TSSK-Kabeb/Networks/pbs.png
+      group: TSSKnetwork
+      weight: 316
+    plex_search:
+      validate: false
+      any:
+        network:
+        - PBS
+        - PBS Kids
+        - Thai PBS
+        - PBS Digital Studios
+        - PBS America
+        - PBS SoCal
+    ignore_blank_results: true
+
+  USANETWORK:
+    overlay:
+      name: usanetwork
+      url: https://raw.githubusercontent.com/netplexflix/Overlays/refs/heads/main/TSSK-Kabeb/Networks/usanetwork.png
+      group: TSSKnetwork
+      weight: 315
+    plex_search:
+      validate: false
+      any:
+        network:
+        - USA Network
+    ignore_blank_results: true
+
+  NICKELODEON:
+    overlay:
+      name: nickelodeon
+      url: https://raw.githubusercontent.com/netplexflix/Overlays/refs/heads/main/TSSK-Kabeb/Networks/nickelodeon.png
+      group: TSSKnetwork
+      weight: 314
+    plex_search:
+      validate: false
+      any:
+        network:
+        - Nickelodeon
     ignore_blank_results: true
 
   Plex:
